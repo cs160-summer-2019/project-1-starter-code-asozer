@@ -3,14 +3,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Forecast - Alert!</title>
+	<title>Storm Search Preferences</title>
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet"> 
 
 </head>
 <body>
 	<!-- your single-location forecast with alert interface here -->
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-centered">
+          <h1 align="center"> Storm Search Preferences </h1>
+          <h4 align="center" > Storm Temperature: </h4>
+          <img src="{% static 'weather/pics/tempslider.png' %}" height="200px" width="1200px">
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-xs-12 col-centered">
+          <h4 align="center" > Storm Winds: </h4>
+          <img src="{% static 'weather/pics/windslider.png' %}" height="200px" width="1200px">
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-xs-12 col-centered">
+          <h4 align="center" > Storm Rain: </h4>
+          <img src="{% static 'weather/pics/rainslider.png' %}" height="200px" width="1200px">
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-xs-12 col-centered">
+          <h4 align="center" > Storm Star Rating: </h4>
+          <img src="{% static 'weather/pics/starslider.png' %}" height="200px" width="1200px">
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-xs-12 col-centered">
+          <h4 align="center" > Storm Dates: </h4>
+          <img src="{% static 'weather/pics/starslider.png' %}" height="200px" width="1200px">
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="row">
+      <div class="col-xs-12">
+      <h4 align="center" > Storm Dates: </h4>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-xs-5">     
+        <h4 align="right">
+          08/20/2019
+        </h4>
+        <input type="image" src="https://yipa.org/wp/wp-content/uploads/2018/12/2019-calendar-icon.jpg" style="height : 100px; width:200" align="right">
+
+      </div>
+      <div class="col-xs-2">  
+        <br><br><br>
+        <h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to:</h4>
+      </div>
+
+      <div class="col-xs-5">
+        <h4>
+          09/07/2019
+        </h4>
+        <input type="image" src="https://yipa.org/wp/wp-content/uploads/2018/12/2019-calendar-icon.jpg" style="height : 100px; width:200" align="left">
+      </div>
+     </div>
+
+
+
+    
+    
+  </div>
+  
 </body>
 </html>
 

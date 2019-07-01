@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Upcoming Storms</title>
+	<title>Current Weather</title>
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
@@ -17,34 +17,28 @@
 	<!-- replace this html -->
   
   <body class="text-center" style="padding: 20PX;">
-    
-  <div>
-  
+  <div class="container">
+
     <div class="row">
       <div class = "col-xs-1">
-        <!-- /change view to map button -->
-        <input type="image" src="https://image.flaticon.com/icons/png/512/44/44386.png" style="height : 50px;">
+        <!-- /change view to map -->
+        <img src = "https://image.flaticon.com/icons/png/512/44/44386.png" style = "height : 50px">
       </div>
-    </div>
     
-   <div id="content">
-      <input type="image" src="http://aux2.iconspalace.com/uploads/system-preferences-icon-256-496431283.png" style="height : 50px;" class="right"/>
   </div>
     
-    
-  <div>
-    <h1> Upcoming Storms</h1>
-		<p style="color:red;">06/30/2019-07/07/2019</p>
+  <div class = "container">
+    <h1>Upcoming Storms</h1>
+		<p>06/30/2019-07/07/2019</p>
   </div>
     
-  <div>
+  <div class="container">
     <div class="row" style="padding: 20PX;">
       
       <div class = "col-xs-1"></div>
       
       <div class = "col-xs-2">
         <!-- /change view to map -->
-
         <img src = "http://pluspng.com/img-png/png-location-location-20icon-20map-800.png" style = "height : 50px">
       </div>
       
@@ -166,6 +160,17 @@
         <button class="btn btn-info btn-lg" type="button">Details</button>
       </div>
       
+      
+
+      
+      
+      <div class="col-md-4"><button class="btn btn-light btn-lg" type="button">Brunch</button></div>
+      <div class="col-md-4"><button class="btn btn-info btn-lg" type="button">Lunch</button></div>
+      <div class="col-md-4"><button class="btn btn-info btn-lg" type="button">Dinner</button></div>
+    </div>
+  </div>
+
+      
 
 
 		<a href="/weather/forecast/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Forecast</a>
@@ -173,12 +178,16 @@
 		<a href="/weather/comparison/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comparison</a>
 		<a href="/weather/comparison/alert/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Comparison with alert</a>
     
-   
+    
+    <div class="row">
+      <div class = "col-xs-12">
+        <img src = "http://1.bp.blogspot.com/-X4N6tj-pLRE/VOtmrXuYtcI/AAAAAAAApxc/wo9PRV2RK-Y/s523/mapsmania.jpg" style="height:400px">
+      </div
+      
+		</div>
 	
-        </div>
-      </div>
-    </div>
-  </body>	
+  </div>
+	
 	<!-- /replace this html -->
 </body>
 </html>

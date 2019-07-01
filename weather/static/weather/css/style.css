@@ -1,3 +1,32 @@
 li {
     color: green;
 }
+.container h1 {
+    color: blue;
+}
+
+.back {
+  background-image: url("http://www.digitalearthlab.com/wp-content/uploads/2012/08/Distribution.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  position: relative;
+}
+.right {
+  position:absolute;
+  top:0;
+  right:0;
+  height:50px;
+}
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+#over img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
